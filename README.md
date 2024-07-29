@@ -21,3 +21,14 @@ RDBMS
 ```bash
 python manage.py makemigrations
 ```
+
+3. DB에 반영
+```bash
+python manage.py migrate # 만들어진 번역본을 시해
+```
+
+4. superuser 생성
+```bash
+python manage.py createsuperuser 
+```
+5. admin에 모델 등록
